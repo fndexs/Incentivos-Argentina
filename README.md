@@ -15,8 +15,6 @@ Dashboard em **Power BI** para acompanhamento e gestão de **incentivos comercia
 - [Requisitos](#-requisitos)
 - [Estrutura do repositório](#-estrutura-do-repositório)
 - [Roadmap / próximos passos](#-roadmap--próximos-passos)
-- [Contribuindo](#-contribuindo)
-- [Licença](#-licença)
 
 ---
 
