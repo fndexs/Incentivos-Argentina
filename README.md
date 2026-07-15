@@ -38,8 +38,7 @@ O arquivo `Incentivos_Argentina.pbix` consolida os dados de vendas, forecast e a
 | 1 | **Overview** | Visão executiva geral: cards de Sell In, Forecast acumulado, % de variação Sell In vs Forecast, gráfico combinado (linha + coluna) de Sell In vs Forecast por mês, gráfico 100% empilhado de participação por Brand, e pivot table detalhada por Sales Office / Brand / Agente. Contém slicers de período, agente (KAM), EVV, sales office e brand. |
 | 2 | **KAM Incentivos** | Pivot table detalhada por Sales Office, Brand e Agente com as métricas de vendas, atingimento, quiebres e o **valor de pagamento de incentivo** (por pessoa/brand, por canal e total), voltada ao acompanhamento do KAM. |
 | 3 | **Field Overview** | Visão de campo: tabelas com o desempenho por Agente/Canal/Brand e uma pivot table específica de **EVV** (Execução em Ponto de Venda / Visita), trazendo Forecast, Sell In, % de atingimento e valor de pagamento por EVV. |
-| 4 | **Field Overview** *(complementar)* | Segunda página de campo com pivot table por Canal, Brand e EVV, incluindo as métricas de **Resultado de Adherência EVV** e **Execução**, além de slicers de Canal, EVV, Promotor, Brand e período. |
-| 5 | **Field Incentivos** | Apuração final do incentivo do time de campo: Forecast, Sell In, % atingimento, e o detalhamento do pagamento (**Valor Pago EVV**, **Valor Pago EVV Adherência**, **Valor Pago EVV Execução** e **Pago Total**) por Canal, EVV, Promotor e Brand. |
+| 4 | **Field Incentivos** | Apuração final do incentivo do time de campo: Forecast, Sell In, % atingimento, e o detalhamento do pagamento (**Valor Pago EVV**, **Valor Pago EVV Adherência**, **Valor Pago EVV Execução** e **Pago Total**) por Canal, EVV, Promotor e Brand. |
 
 > As páginas navegam entre si através de botões de ação (*action buttons*) e possuem *bookmarks* configurados (ex.: filtro "Sem Promotor") para tratar cenários sem promotor cadastrado.
 
