@@ -35,7 +35,7 @@ O arquivo `Incentivos_Argentina.pbix` consolida os dados de vendas, forecast e a
 
 | # | Página | Objetivo |
 |---|--------|----------|
-| 1 | **Overview** | Visão executiva geral: cards de Sell In, Forecast acumulado, % de variação Sell In vs Forecast, gráfico combinado (linha + coluna) de Sell In vs Forecast por mês, gráfico 100% empilhado de participação por Brand, e pivot table detalhada por Sales Office / Brand / Agente. Contém slicers de período, agente, EVV, sales office e brand. |
+| 1 | **Overview** | Visão executiva geral: cards de Sell In, Forecast acumulado, % de variação Sell In vs Forecast, gráfico combinado (linha + coluna) de Sell In vs Forecast por mês, gráfico 100% empilhado de participação por Brand, e pivot table detalhada por Sales Office / Brand / Agente. Contém slicers de período, agente (KAM), EVV, sales office e brand. |
 | 2 | **KAM Incentivos** | Pivot table detalhada por Sales Office, Brand e Agente com as métricas de vendas, atingimento, quiebres e o **valor de pagamento de incentivo** (por pessoa/brand, por canal e total), voltada ao acompanhamento do KAM. |
 | 3 | **Field Overview** | Visão de campo: tabelas com o desempenho por Agente/Canal/Brand e uma pivot table específica de **EVV** (Execução em Ponto de Venda / Visita), trazendo Forecast, Sell In, % de atingimento e valor de pagamento por EVV. |
 | 4 | **Field Overview** *(complementar)* | Segunda página de campo com pivot table por Canal, Brand e EVV, incluindo as métricas de **Resultado de Adherência EVV** e **Execução**, além de slicers de Canal, EVV, Promotor, Brand e período. |
@@ -53,7 +53,7 @@ Tabelas identificadas no modelo (via consultas dos visuais):
 |--------|------------------|
 | `dCalendar` | Dimensão de calendário / período (`AnoMes`) |
 | `dKAM` | Dimensão de KAM / estrutura comercial (Agente, Sales Office) |
-| `dEVV/Promotor` | Dimensão de campo: EVV (execução em ponto de venda) e Promotor |
+| `dEVV/Promotor` | Dimensão de campo: EVV e Promotor |
 | `de-para Prod` | Tabela de de-para de produtos, usada para mapear o **Brand de Incentivos** (`P-BRAND INCENTIVOS`) |
 | `fForecast` | Fato de Forecast (previsão de vendas) |
 | `_Medidas` | Tabela dedicada às **medidas DAX** (measure table) |
@@ -108,24 +108,6 @@ Slicers disponíveis por página:
 
 - **Overview:** Período (`AnoMes`), Agente (`O-Agent`), EVV, Sales Office, Brand (`P-BRAND INCENTIVOS`)
 - **Field Overview (campo):** Canal, EVV, Promotor, Brand, Período (`AnoMes`)
-
----
-
-## ▶️ Como usar
-
-1. Baixe/clone este repositório.
-2. Abra o arquivo `Incentivos_Argentina.pbix` no **Power BI Desktop**.
-3. Atualize as credenciais/fonte de dados em **Transformar Dados → Configurações da Fonte de Dados**, caso a conexão original não esteja disponível no seu ambiente.
-4. Clique em **Atualizar** para trazer os dados mais recentes.
-5. Navegue pelas páginas **Overview → KAM Incentivos → Field Overview → Field Incentivos** usando os botões de navegação no próprio relatório.
-
----
-
-## ⚙️ Requisitos
-
-- **Power BI Desktop** (versão de julho/2026 ou superior recomendada — o arquivo usa o tema `CY26SU05`, formato de layout `5.73`).
-- Acesso às fontes de dados originais (ERP/planilhas de Sell In, Forecast e cadastro de KAM/Promotor/EVV) para atualização do modelo.
-- Permissão de publicação no **Power BI Service**, caso o objetivo seja distribuir o relatório para o time comercial/campo.
 
 ---
 
