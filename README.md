@@ -14,7 +14,6 @@ Dashboard em **Power BI** para acompanhamento e gestão de **incentivos comercia
 - [Como usar](#-como-usar)
 - [Requisitos](#-requisitos)
 - [Estrutura do repositório](#-estrutura-do-repositório)
-- [Roadmap / próximos passos](#-roadmap--próximos-passos)
 
 ---
 
@@ -118,15 +117,3 @@ Slicers disponíveis por página:
 
 ---
 
-## 🗺 Roadmap / próximos passos
-
-- [ ] Documentar o dicionário de dados completo (todas as colunas das dimensões)
-- [ ] Adicionar prints/screenshots das páginas no README
-- [ ] Publicar o relatório no Power BI Service com atualização automática agendada
-- [ ] Criar changelog de versões do `.pbix`
-
----
-
-## 📄 Licença
-
-Uso interno / corporativo. Ajuste esta seção conforme a política de dados e confidencialidade da sua organização (este dashboard contém informações comerciais sensíveis de incentivos).
